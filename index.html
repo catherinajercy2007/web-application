@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Personal Finance Advisor</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>💰 AI-Driven Personal Finance Advisor</h1>
+
+  <div class="container">
+
+    <!-- INCOME -->
+    <div class="card">
+      <h2>➕ Add Income</h2>
+      <input type="number" id="incomeInput" placeholder="Enter income amount" />
+      <button id="addIncomeBtn">Add Income</button>
+    </div>
+
+    <!-- EXPENSE -->
+    <div class="card">
+      <h2>➖ Add Expense</h2>
+      <input type="number" id="expenseInput" placeholder="Enter expense amount" />
+
+      <select id="categorySelect">
+        <option>Food</option>
+        <option>Bills</option>
+        <option>Transport</option>
+        <option>Shopping</option>
+        <option>Other</option>
+      </select>
+
+      <input type="text" id="noteInput" placeholder="Expense note (optional)" />
+      <button id="addExpenseBtn">Add Expense</button>
+    </div>
+
+    <!-- SUMMARY -->
+    <div class="card">
+      <h2>📊 Financial Summary</h2>
+      <p>Total Income: ₹<span id="totalIncome">0</span></p>
+      <p>Total Expenses: ₹<span id="totalExpenses">0</span></p>
+      <p>Savings: ₹<span id="savings">0</span></p>
+    </div>
+
+    <!-- DAILY LIMIT -->
+    <div class="card">
+      <h2>📅 Safe Daily Spending Limit</h2>
+      <p>You can safely spend <strong>₹<span id="dailyLimit">0</span></strong> per day.</p>
+    </div>
+
+    <!-- AI INSIGHTS -->
+    <div class="card">
+      <h2>🤖 AI Financial Insights</h2>
+      <ul id="insightsList"></ul>
+    </div>
+
+    <!-- REWARDS -->
+    <div class="card">
+      <h2>🏆 Rewards & Achievements</h2>
+      <p>Reward Points: <strong><span id="rewardPoints">0</span></strong></p>
+      <ul id="rewardBadges"></ul>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
