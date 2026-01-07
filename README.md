@@ -53,13 +53,11 @@ Based on this data, it generates financial insights, spending limits, and reward
 ---
 
 ## 🔗 Live Demo
-(Add your GitHub Pages link here)
-
+https://catherinajercy2007.github.io/web-application/
 ---
 
 ## 📂 Repository
-(Add your GitHub repository link here)
-
+https://github.com/catherinajercy2007/web-application
 ---
 
 ## 📌 Key Learnings
